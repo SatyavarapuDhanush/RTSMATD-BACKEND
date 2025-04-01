@@ -18,7 +18,7 @@ public class Threat {
         this.name = name;
         this.severity = severity;
     }
-
+ 
     public Long getId() { return id; }
     public String getName() { return name; }
     public String getSeverity() { return severity; }

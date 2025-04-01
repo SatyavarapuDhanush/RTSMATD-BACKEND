@@ -15,7 +15,7 @@ public class ThreatController {
     @Autowired
     private ThreatRepository threatRepository;
 
-    @GetMapping
+    @GetMapping("/getallthreats")
     public List<Threat> getAllThreats() {
         return threatRepository.findAll();
     }

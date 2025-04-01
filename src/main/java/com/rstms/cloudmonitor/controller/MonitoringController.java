@@ -8,7 +8,7 @@ import java.util.*;
 @CrossOrigin("*")
 public class MonitoringController {
 
-    @GetMapping
+    @GetMapping("/getalllogs")
     public List<Map<String, Object>> getLogs() {
         List<Map<String, Object>> logs = new ArrayList<>();
         logs.add(Map.of("name", "CPU Usage", "count", 45));
